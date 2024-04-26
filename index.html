@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script async src="js/app.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container grid bg-secondary">
+      <div class="grid-item">
+        <div class="display">0</div>
+      </div>
+      <div class="grid-item">
+        <div class="keyword">
+          <button class="keyn btn btn-primary">7</button>
+          <button class="keyn btn btn-primary">8</button>
+          <button class="keyn btn btn-primary">9</button>
+          <button class="keyn btn btn-primary">4</button>
+          <button class="keyn btn btn-primary">5</button>
+          <button class="keyn btn btn-primary">6</button>
+          <button class="keyn btn btn-primary">1</button>
+          <button class="keyn btn btn-primary">2</button>
+          <button class="keyn btn btn-primary">3</button>
+          <button class="keyn btn btn-primary">0</button>
+          <button class="keyn point btn btn-primary" id="point">.</button>
+          <button class="keyn igual btn btn-danger" id="igual">=</button>
+          <button class="keyn parA btn btn-primary">(</button>
+          <button class="keyn parB btn btn-primary">)</button>
+          <!-- Nuevo -->
+          <button class="keyn hidden a btn btn-success">A</button>
+          <button class="keyn hidden b btn btn-success">B</button>
+          <button class="keyn hidden c btn btn-success">C</button>
+          <button class="keyn hidden d btn btn-success">D</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="panel">
+          <button class="keyop del btn btn-warning" id="borrar">C</button>
+          <button class="keyop sum btn btn-warning">+</button>
+          <button class="keyop sen btn btn-warning" id="sen">Sen</button>
+          <button class="keyop res btn btn-warning">-</button>
+          <button class="keyop cos btn btn-warning" id="cos">Cos</button>
+          <button class="keyop mul btn btn-warning">*</button>
+          <button class="keyop tan btn btn-warning" id="tan">Tan</button>
+          <button class="keyop div btn btn-warning">/</button>
+          <button class="keyop elv btn btn-warning" id="elv">
+            X<sup>y</sup>
+          </button>
+          <button class="keyop raz btn btn-warning" id="raz">√</button>
+          <button class="keyn hidden e btn btn-success">E</button>
+          <button class="keyn hidden f btn btn-success">F</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="conversions">
+          <button class="keycon bin btn btn-info" id="bin">BIN</button>
+          <button class="keycon oct btn btn-info" id="oct">OCT</button>
+          <button class="keycon hex btn btn-info" id="hex">HEX</button>
+          <button class="keycon Abin btn btn-info hidden" id="bin">A BIN</button>
+          <button class="keycon Aoct btn btn-info hidden" id="oct">A OCT</button>
+          <button class="keycon Ahex btn btn-info hidden" id="hex">A HEX</button>
+          <button class="keycon dec btn btn-info" id="dec">DEC</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
