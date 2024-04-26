@@ -175,22 +175,20 @@ function trans() {
 //VIEJO
 
 function seno(num) {
-  display.innerHTML = Math.sin(num);
+  display.innerHTML = Math.sin(num).toFixed(8);
   isSen = false;
 }
 function cose(num) {
-  display.innerHTML = Math.cos(num);
+  display.innerHTML = Math.cos(num).toFixed(8);
   isCos = false;
 }
 function tang(num) {
-  display.innerHTML = Math.tan(num);
+  display.innerHTML = Math.tan(num).toFixed(8);
   isTan = false;
 }
 function elvr(str) {
-  console.log(str);
   let [base, exp] = str.split("X<sup>y</sup>");
-  console.log(base, exp);
-  display.innerHTML = base ** exp;
+  display.innerHTML = (base ** exp).toFixed(8);
   isElv = false;
 }
 
@@ -198,7 +196,7 @@ function root(num) {
   if (num < 0) {
     display.innerHTML = "Error!";
   } else {
-    display.innerHTML = Math.sqrt(num);
+    display.innerHTML = Math.sqrt(num).toFixed(8);
     isRaz = false;
   }
 }
