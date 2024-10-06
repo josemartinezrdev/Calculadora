@@ -14,7 +14,8 @@ Funciones Trigonometricas:
 - Coseno
 - Tangente
 
-  Sistemas Numericos
+
+Sistemas Numericos
 
   - Binario a Decimal
   - Binario a Octal
@@ -34,7 +35,7 @@ Funciones Trigonometricas:
  
   Otras:
 
-  Opera con parentesis "("  ")"
-  Opera con punto decimal "."
-  Tecla de limpiar pantalla "C"
-  Teclas para sistema Hexadecimal "A, B, C, D, E, F"
+  - Opera con parentesis "("  ")"
+  - Opera con punto decimal "."
+  - Tecla de limpiar pantalla "C"
+  - Teclas para sistema Hexadecimal "A, B, C, D, E, F"
